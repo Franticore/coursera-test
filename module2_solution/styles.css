@@ -4,29 +4,47 @@
 	margin: 0px;
 }
 
+body {
+	background-color: #ccffcc;
+}
+
 h1 {
 	margin-bottom: 15px;
 	text-align: center;
+	font-family: "Arial Black", sans-serif;
+	color: #990000;
 }
 
 section {
 	position: relative;
 	border: 1px solid black;
-	background-color: #A52A2A;
 	margin: 10px;
-	height: 150px;
-	font-family: Helvetica;
+	font-family: Tahoma, sans-serif;
 	color: white;
+	background-color: #ff9933;
 }
 
-.menu_title {
-	width: 50px;
-	height: 25px;
+
+.menu_title_box {
+	width: 150px;
+	height: 50px;
 	background-color: gray;
-	color: blue;
 	border: 1px solid black;
-	position: relative;
 	float: right;
+	text-align: center;
+	position: relative;
+	background-color: #ff6600;
+}
+
+.menu_title_text{
+	position: relative;
+	top: 13px;
+	font-family: Impact, sans-serif;
+	font-size: 1.25em;
+}
+
+.menu_text {
+	margin: 60px 20px 10px 20px;
 }
 
 /****Responsive Framework****/
