@@ -28,12 +28,10 @@ section {
 .menu_title_box {
 	width: 150px;
 	height: 50px;
-	background-color: gray;
 	border: 1px solid black;
 	float: right;
 	text-align: center;
 	position: relative;
-	background-color: #ff6600;
 }
 
 .menu_title_text{
@@ -45,6 +43,18 @@ section {
 
 .menu_text {
 	margin: 60px 20px 10px 20px;
+}
+
+#chicken {
+	background-color: #ffcc00;
+}
+
+#beef {
+	background-color: #ff5050;
+}
+
+#sushi {
+	background-color: #cc99ff;
 }
 
 /****Responsive Framework****/
